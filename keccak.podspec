@@ -1,12 +1,10 @@
 Pod::Spec.new do |spec|
     spec.name         = 'keccak'
-    spec.version      = '0.1.1'
-    #spec.ios.deployment_target = "8.0"
-
-    
-    spec.osx.deployment_target = "10.10"
-    #spec.tvos.deployment_target = "9.0"
-    #spec.watchos.deployment_target = "2.0"
+    spec.version      = '0.1.2'
+    spec.ios.deployment_target = "8.0"
+    spec.osx.deployment_target = "10.9"
+    spec.tvos.deployment_target = "9.0"
+    spec.watchos.deployment_target = "2.0"
     spec.license      = { :type => 'CC0 (Creative Commons)', :file => 'License.md' }
     spec.summary      = 'keccak module for web3swift'
     spec.homepage     = 'https://github.com/bankex/web3swift'
